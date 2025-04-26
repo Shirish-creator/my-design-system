@@ -1,0 +1,25 @@
+{
+  "name": "superkrishakds",
+  "version": "1.0.2",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "license": "MIT",
+  "files": ["lib"],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "yarn build"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-native": "^0.76.9"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "expo-linear-gradient": "^14.0.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

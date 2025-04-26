@@ -1,0 +1,12 @@
+{
+  "name": "my-design-system",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/superkrishakds",
+    "packages/superkrishakds/example"
+  ],
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
