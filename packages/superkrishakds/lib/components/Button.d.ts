@@ -1,5 +1,8 @@
 import React from 'react';
-export declare const Button: ({ title, onPress }: {
+type ButtonProps = {
     title: string;
     onPress: () => void;
-}) => React.JSX.Element;
+    variant?: 'primary' | 'default';
+};
+export declare const Button: ({ title, onPress, variant }: ButtonProps) => React.JSX.Element;
+export {};
